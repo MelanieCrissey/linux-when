@@ -12,26 +12,38 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #f3f4f6;
+            background-color:#000;
             font-family: Arial, sans-serif;
         }
         .headline {
-            font-size: 2rem;
-            color: #111827;
+            font-size: 3rem;
+            color: #Dfcfb8;
             margin-bottom: 20px;
+            font-family: monospace;
         }
         .launch-button {
             padding: 10px 20px;
-            background-color: #2563eb;
-            color: white;
+            background-color: #10E06f;
+            background-image: linear-gradient(to right, #10E06f 0%, #feb300  15%, #10E06f  100%);
+            color: #000;
             border: none;
             border-radius: 5px;
             cursor: pointer;
             font-size: 1rem;
-            transition: background-color 0.3s;
+            transition: 0.5s;
+            box-shadow: 0 0 20px #10E06f;
+            background-size: 200% auto;
+            display:block;
         }
         .launch-button:hover {
-            background-color: #1d4ed8;
+            background-color: #10E06f;
+            background-position: right center; /* change the direction of the change here */
+            color: #000;
+            text-decoration: none;
+
+        }
+        li {
+          list-style-type: none;
         }
     </style>
 </head>
@@ -40,15 +52,8 @@
       <h1>02/22/24
       </h1>
     </div>
-    <button class="launch-button">Join the Launch Party Live</button>
-    <div class="content">
-      <ul>
-        <ol>
-          <a href="#">Demo</a>
-          <a href="#">Fireside chat</a>
-          <a href="#">Custom sticker packs</a>
-        </ol>
-      </ul>
-    </div>
+    <button class="launch-button">Join the Launch Party live</button> 
 </body>
 </html>
+
+
